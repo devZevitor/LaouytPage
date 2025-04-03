@@ -105,7 +105,6 @@
     
     .categorias {
         padding: 5px 0;
-        background-color: red;
     }
 
     .categorias :nth-last-child(-n+3) {
