@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: #161718;
+    height: 200vh;
+}
+
+#ConteinerGlobal {
+    background-color: #1e1e1e;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "a" "b" "b" "b" "b" "b" "b" "b" "b" "b" "b" "b" "b" "c";
+}
+
+/* NAV */
+#nav {
+    background-color: #212223;
+    grid-area: a;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#navBar {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 2vh;
+}
+
+#navBar div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+
+#navButtons {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+#navButtons div {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    flex: 1;
+}
+
+#logo div {
+    width: 8vh;
+    height: 100%;
+}
+
+#logo img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Main Conteiner */
+#main {
+    background-color: transparent;
+    grid-area: b;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+/* Main - Anuncio */
+#Anuncio {
+    background-color: #161718;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+#subAnuncio {
+    padding: 1vh;
+    height: 90%;
+    width: 98%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#subAnuncio div {
+    height: 90%;
+    width: 50%;
+    background-color: #121212;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Main - Grade */
+#Grade {
+    background-color: #161718;
+    flex: 1;
+    display: flex;
+    padding: 2vh;
+    gap: 5vh;
+}
+
+#GradeLeft, #GradeRight {
+    background-color: #121212;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    flex: 1;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    padding: 2vh;
+}
+
+/* Main - Patricionadores */
+#Patricionadores {
+    padding: 5vh;
+    background-color: #161718;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Patricionadores div {
+    background-color: #121212;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+
+#Destaque {
+    padding: 5vh;
+    background-color: #161718;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Destaque div {
+    background-color: #121212;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+
+/* Footer */
+#footer {
+    background-color: #161718;
+    grid-area: c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+#footer div {
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+    padding: 1vh;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}

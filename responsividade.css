@@ -1,0 +1,70 @@
+@media (max-width: 1170px) {
+    a {
+        font-size: 0.5rem;
+    }
+
+    p {
+        font-size: 0.5rem;
+    }
+
+    h3 {
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 770px) {
+    a {
+     font-size: 0.3rem;
+    }
+
+    button {
+        font-size: 0.5rem;
+    }
+ }
+
+ @media (max-width: 600px) {
+    body #navButtons {
+        justify-content: center;
+        align-items: end;
+    }
+
+    body #navButtons div {
+        width: 100%;
+    }
+
+    body #logo div {
+        width: 4vh;
+        height: 70%;
+    }
+
+    p {
+        font-size: 0.3rem;
+    }
+
+    h3 {
+        font-size: 0.3rem;
+    }
+ }
+
+ @media (max-width: 350px) {
+
+    body #navButtons button {
+        font-size: .3rem;
+    }
+
+    body #navBar div {
+        width: 55%;
+    }
+ 
+    a {
+        font-size: 0.3rem;
+    }
+
+    p {
+        font-size: 0.2rem;
+    }
+
+    h3 {
+        font-size: 0.2rem;
+    }
+ }
