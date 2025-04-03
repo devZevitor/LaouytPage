@@ -1,3 +1,10 @@
+@media (max-width: 1600px) {
+    #GradeRight   p {
+        font-size: 1rem;
+    }
+}
+
+
 @media (max-width: 1170px) {
     a {
         font-size: 0.5rem;
@@ -7,8 +14,50 @@
         font-size: 0.5rem;
     }
 
+    #Grade {
+       flex-direction: column;
+    }
+
+    #GradeRight button{
+        display: block;
+    }
+
+    #GradeRight h3, #GradeRight p {
+        display: none
+    }
+
     h3 {
         font-size: 0.5rem;
+    }
+
+    #GradeLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #Destaque div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: center;
+    }
+
+    #Destaque img, #Patricionadores img {
+        height: 30% !important;
+        width: 50%;
+    }
+}
+
+@media (max-width: 900px) {
+    .categoria img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .categoria {
+        font-size: .7rem;
     }
 }
 
@@ -43,6 +92,44 @@
 
     h3 {
         font-size: 0.3rem;
+    }
+
+    .categoria img {
+        width: 5px;
+        height: 5px;
+    }
+
+    .categoria {
+        font-size: .5rem;
+    }
+    
+    .categorias {
+        padding: 5px 0;
+        background-color: red;
+    }
+
+    .categorias :nth-last-child(-n+3) {
+        display: none;
+    }
+
+    .duvida-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .duvida {
+        padding: 10px;
+        width: 50%;
+    }
+
+    #Functions {
+        padding: 3vh;
+        flex-direction: column;
+      
+        gap: 4vh;
     }
  }
 
